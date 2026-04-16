@@ -4,7 +4,7 @@ import type { CopyData } from '@/types/database'
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 const MODEL = 'claude-haiku-4-5-20251001'
-const MAX_TOKENS = 800
+const MAX_TOKENS = 1200
 
 export interface GenerateCopyInput {
   bizName: string
